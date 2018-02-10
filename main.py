@@ -65,7 +65,6 @@ print(CLASSES[label])
 # 當Program對dataset的所有data遍歷完一遍後，相對應的Dataloader也完成了一次迭代
 dataiter = iter(trainloader)
 images, labels = dataiter.next()  # 回傳4張圖片及標籤
-# print(' '.join('%11s' % CLASSES[labels[j]] for j in range(BATCH_SIZE)))
 
 # LeNet
 
