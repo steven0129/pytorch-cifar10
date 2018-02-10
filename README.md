@@ -2,7 +2,7 @@
 
 ## Quick Start
 
-```python
+```
 $ python main.py
 ```
 
